@@ -11,6 +11,8 @@ embedded into Malak's sculpture autonomously syncs and plays the evolving sounds
 The installation is divided into three modules to ensure high-fidelity recording and continuous playback, based on connection to WiFi.
 It enables the audience to record their dreams by pressing "record" and again to stop, then uploads their recordings to a google drive.
 A second ESP32 is located in the gallery, fetches the files and plays them in a loop.
+
+
 <img src="https://github.com/user-attachments/assets/6dfa10a8-db00-42b9-8481-36bcce689a8f" width="500" alt="System Overview">
 
 Green light when you can press the button to record, red light lights up when recording.
