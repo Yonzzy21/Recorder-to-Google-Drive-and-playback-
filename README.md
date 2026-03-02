@@ -11,8 +11,7 @@ embedded into Malak's sculpture autonomously syncs and plays the evolving sounds
 The installation is divided into three modules to ensure high-fidelity recording and continuous playback, based on connection to WiFi.
 It enables the audience to record their dreams by pressing "record" and again to stop, then uploads their recordings to a google drive.
 A second ESP32 is located in the gallery, fetches the files and plays them in a loop.
-![250904_ev_or_13](https://github.com/user-attachments/assets/6dfa10a8-db00-42b9-8481-36bcce689a8f)
-
+<img src="https://github.com/user-attachments/assets/6dfa10a8-db00-42b9-8481-36bcce689a8f" width="500" alt="System Overview">
 
 ### 1. The Recorder (`/firmware`)
 An ESP32-based station that handles audio capture.
@@ -20,8 +19,7 @@ An ESP32-based station that handles audio capture.
 * **Conflict Prevention:** Uses an `isRecording` flag to prevent the SD card from being accessed by the uploader and recorder simultaneously.
 * Based on INMP441_ESP32_RECORDER script by Antarip Kar. Added a background logic for uploading the recordings from SD to Google Drive.
 
-![PXL_20250905_220451210_exported_0](https://github.com/user-attachments/assets/af17f098-0efb-4eff-bba8-57cb09386b20)
-**Outside view of the recorder space**
+<img src="https://github.com/user-attachments/assets/af17f098-0efb-4eff-bba8-57cb09386b20" width="350" alt="Recorder View">**Outside view of the recorder space**
 
 ### 2. The Bridge (`/cloud_upload`)
 A Google Apps Script acting as a lightweight API to bypass complex OAuth2 requirements. 
@@ -33,8 +31,7 @@ A Google Apps Script acting as a lightweight API to bypass complex OAuth2 requir
 A second ESP32 that drives the gallery speakers using the `ESP8266Audio` library.
 * **Smart Sync:** Periodically fetches the cloud playlist, compares it to local SD files, and downloads only what is missing.
 * **Playback:** Outputs high-quality audio via I2S to a DAC or Amplifier.
-![PXL_20250926_181407620](https://github.com/user-attachments/assets/e4317329-0bc6-4aa7-90e7-7777363c17d5)
-
+<img src="https://github.com/user-attachments/assets/e4317329-0bc6-4aa7-90e7-7777363c17d5" width="350" alt="Gallery View">
 ---
 
 ##  Hardware Requirements & Pinout
@@ -80,7 +77,9 @@ A second ESP32 that drives the gallery speakers using the `ESP8266Audio` library
 
 ##  Photos and Work in Progress
 
-![PXL_20250815_162418441](https://github.com/user-attachments/assets/6c1c859f-74af-464d-a9dc-0e04e19c6513)
-![PXL_20250815_185651432](https://github.com/user-attachments/assets/f0633307-785c-404a-92a2-88b9c4a542ff)
-![PXL_20250819_160530938 PORTRAIT](https://github.com/user-attachments/assets/247b2ca1-c316-4afd-93e3-8d79b78526b4)
+<p float="left">
+  <img src="https://github.com/user-attachments/assets/6c1c859f-74af-464d-a9dc-0e04e19c6513" width="280" />
+  <img src="https://github.com/user-attachments/assets/f0633307-785c-404a-92a2-88b9c4a542ff" width="280" /> 
+  <img src="https://github.com/user-attachments/assets/247b2ca1-c316-4afd-93e3-8d79b78526b4" width="280" />
+</p>
 
