@@ -41,8 +41,8 @@ A Google Apps Script acting as a lightweight API to bypass complex OAuth2 requir
 A second ESP32 that drives the gallery speakers using the `ESP8266Audio` library.
 * **Smart Sync:** Periodically fetches the cloud playlist, compares it to local SD files, and downloads only what is missing.
 * **Playback:** Outputs high-quality audio via I2S to a DAC or Amplifier.
+
 <img src="https://github.com/user-attachments/assets/e4317329-0bc6-4aa7-90e7-7777363c17d5" width="350" alt="Gallery View" width="800">
----
 
 ##  Hardware Requirements & Pinout
 
