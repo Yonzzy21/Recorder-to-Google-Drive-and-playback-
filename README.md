@@ -21,8 +21,8 @@ An ESP32-based station that handles audio capture.
 * **Conflict Prevention:** Uses an `isRecording` flag to prevent the SD card from being accessed by the uploader and recorder simultaneously.
 * Based on INMP441_ESP32_RECORDER script by Antarip Kar. Added a background logic for uploading the recordings from SD to Google Drive.
 
-<img src="https://github.com/user-attachments/assets/af17f098-0efb-4eff-bba8-57cb09386b20" width="350" alt="Recorder View">
-
+[![Watch the video](https://img.youtube.com/vi/KHkFXbQPWxk/0.jpg)](https://www.youtube.com/watch?v=KHkFXbQPWxk)
+*Click the image above to watch the recording and playback loop.*
 **Outside view of the recorder space**
 
 ### 2. The Bridge (`/cloud_upload`)
