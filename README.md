@@ -22,9 +22,10 @@ An ESP32-based station that handles audio capture.
 * Based on INMP441_ESP32_RECORDER script by Antarip Kar. Added a background logic for uploading the recordings from SD to Google Drive.
 
 [![Watch the video](https://img.youtube.com/vi/KHkFXbQPWxk/0.jpg)](https://www.youtube.com/watch?v=KHkFXbQPWxk)
+
 *Click the image above to watch the recording and playback loop.*
 
-![PXL_20250905_220451210_exported_0](https://github.com/user-attachments/assets/c3a97e2e-7760-4344-8a0d-2e29634cda94)
+<img src="https://github.com/user-attachments/assets/c3a97e2e-7760-4344-8a0d-2e29634cda94" width="350" alt="Gallery View" width="800">
 **Outside view of the recorder space**
 
 ### 2. The Bridge (`/cloud_upload`)
