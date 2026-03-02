@@ -13,6 +13,8 @@ It enables the audience to record their dreams by pressing "record" and again to
 A second ESP32 is located in the gallery, fetches the files and plays them in a loop.
 <img src="https://github.com/user-attachments/assets/6dfa10a8-db00-42b9-8481-36bcce689a8f" width="500" alt="System Overview">
 
+Green light when you can press the button to record, red light lights up when recording.
+
 ### 1. The Recorder (`/firmware`)
 An ESP32-based station that handles audio capture.
 * **Core Logic:** Uses FreeRTOS to run a background `uploadTask` on **Core 0** while the I2S recording stays prioritized on **Core 1**.
