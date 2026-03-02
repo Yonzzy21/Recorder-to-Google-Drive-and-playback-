@@ -26,7 +26,8 @@ An ESP32-based station that handles audio capture.
 *Click the image above to watch the recording and playback loop.*
 
 <img src="https://github.com/user-attachments/assets/c3a97e2e-7760-4344-8a0d-2e29634cda94" width="350" alt="Gallery View" width="800">
-**Outside view of the recorder space**
+
+*Outside view of the recorder space*
 
 ### 2. The Bridge (`/cloud_upload`)
 A Google Apps Script acting as a lightweight API to bypass complex OAuth2 requirements. 
